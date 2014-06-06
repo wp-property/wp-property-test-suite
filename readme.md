@@ -1,13 +1,14 @@
 The best project ever.
 
-## Getting Started
+## Usage
+
+
+## Using Node / Grunt
 Install the module with: `npm install wp-property-test-suite`
 
 ```javascript
-var wp_property_test_suite = require('wp-property-test-suite');
-wp_property_test_suite.awesome(); // "awesome"
+var suite = require( 'wp-property-test-suite' );
 ```
-## Usage
 
 ## License
 

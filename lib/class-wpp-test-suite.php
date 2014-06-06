@@ -1,9 +1,13 @@
 <?php
 /**
- * Test_Suite
+ * Name: Test Suite
+ * Class: UsabilityDynamics\WPP\Test_Suite
+ * Version: 3.6.0
+ * Description: Administrative Tools.
+ * Capability: manage_options
+ * Slug: wp-property-test-suite
+ * URL: http://github.com/UsabilityDynamics/wp-property-test-suite
  *
- * wp-property-test-suite
- * http://github.com/UsabilityDynamics/wp-property-test-suite
  */
 namespace UsabilityDynamics\WPP {
 
@@ -29,6 +33,8 @@ namespace UsabilityDynamics\WPP {
        *
        */
       public function __construct( $parent = array(), $module = array() ) {
+
+        // @todo Add development RPC methods.
 
         try {
 

@@ -1,9 +1,13 @@
 {
-  "name": "usabilitydynamics/wp-property-test-suite",
+  "name": "wp-property/test-suite",
   "version": "0.1.0",
   "type": "wordpress-module",
-  "homepage": "",
-  "keywords": [],
+  "homepage": "https://github.com/UsabilityDynamics/wp-property-test-suite",
+  "keywords": [
+    "grunt",
+    "node",
+    "wp-property"
+  ],
   "minimum-stability": "dev",
   "repositories": [
     {
@@ -17,9 +21,7 @@
   },
   "require-dev": {},
   "autoload": {
-    "classmap": [
-      "lib"
-    ]
+    "classmap": [ "lib" ]
   },
   "authors": [
     {
@@ -44,7 +46,7 @@
   "config": {},
   "extra": {
     "title": {
-      "en_US": ""
+      "en_US": "Test Suite"
     },
     "tagline": {
       "en_US": ""
@@ -54,9 +56,9 @@
     },
     "image": "",
     "minimum_core": {},
-    "installer-name": "wp-property-test-suite",
-    "text_domain": "wp-property-test-suite",
-    "classmap": "lib/classwp-property-test-suite.php",
+    "installer-name": "wpp-test-suite",
+    "text_domain": "wpp-test-suite",
+    "classmap": "lib/class-wpp-test-suite.php",
     "bootstrap": ""
   },
   "license": "GNU"
